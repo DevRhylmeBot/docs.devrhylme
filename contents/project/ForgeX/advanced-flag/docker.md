@@ -34,7 +34,8 @@ EXPOSE ${PORT}
 CMD ["./main"]
 ```
 
-Dockerfile with React Flag
+## Dockerfile with React Flag
+
 ```dockerfile
 FROM golang:1.23-alpine AS build
 
@@ -68,7 +69,7 @@ EXPOSE 5173
 CMD ["serve", "-s", "/app/dist", "-l", "5173"]
 ```
 
-Docker Compose
+## Docker Compose
 docker-compose.yml pulls environment variables from the .env file. Below is an example configuration if the Docker flag is used with the MySQL DB driver:
 
 ```dockerfile
@@ -120,7 +121,7 @@ volumes:
 networks:
   forgex:
 ```
-Notes
+## Notes
 Cleaning Docker Leftovers
 If you are testing multiple frameworks locally, ensure to clean up Docker leftovers such as volumes. Use the following commands:
 
