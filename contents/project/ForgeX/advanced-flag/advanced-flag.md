@@ -2,23 +2,17 @@
 
 The `--advanced` flag in ForgeX serves as a switch to enable additional features during project creation. It is applied with the `create` command and unlocks the following features:
 
-- **HTMX Support using Templ:**  
-  Enables the integration of HTMX support for dynamic web pages using Templ.
+- **HTMX Support using Templ:**  Enables the integration of HTMX support for dynamic web pages using Templ.
 
-- **CI/CD Workflow Setup using GitHub Actions:**  
-  Automates the setup of a CI/CD workflow using GitHub Actions.
+- **CI/CD Workflow Setup using GitHub Actions:**  Automates the setup of a CI/CD workflow using GitHub Actions.
 
-- **Websocket Support:**  
-  WebSocket endpoint that sends continuous data streams through the WS protocol.
+- **Websocket Support:**   WebSocket endpoint that sends continuous data streams through the WS protocol.
 
-- **Tailwind:**  
-  Adds Tailwind CSS support to the project.
+- **Tailwind:**  Adds Tailwind CSS support to the project.
 
-- **Docker:**  
-  Docker configuration for Go projects.
+- **Docker:**  Docker configuration for Go projects.
 
-- **React:**  
-  Frontend written in TypeScript, including an example fetch request to the backend.
+- **React:**  Frontend written in TypeScript, including an example fetch request to the backend.
 
 ## Using the `--advanced` Flag
 
