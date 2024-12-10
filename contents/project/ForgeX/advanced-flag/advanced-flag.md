@@ -24,14 +24,14 @@ forgex create --name <project_name> --framework <selected_framework> --driver <s
 
 By including the --advanced flag, users can choose one or all of the advanced features. The flag enhances the simplicity of ForgeX while offering flexibility for users who require additional functionality.
 
-Recreating the Project Semi-Interactively
+## Recreating the Project Semi-Interactively
 To recreate the project using the same configuration semi-interactively, use the following command:
 
 ```bash
 forgex create --name my-project --framework chi --driver mysql --advanced
 ```
 
-Non-Interactive Setup
+## Non-Interactive Setup
 Non-Interactive setup is also possible:
 ```bash
 forgex create --name my-project --framework chi --driver mysql --advanced --feature htmx --feature githubaction --feature websocket --feature tailwind
