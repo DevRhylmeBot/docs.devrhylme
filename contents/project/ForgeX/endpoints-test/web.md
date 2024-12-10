@@ -7,7 +7,7 @@ This page contains a form with a single input field and a submit button. Upon su
 
 ## Sample output
 
-![htmx](../public/htmx.png)
+![image](https://github.com/user-attachments/assets/50192bb3-ccb9-484a-93f1-6177afc01e64)
 
 ## Terminal log
 
