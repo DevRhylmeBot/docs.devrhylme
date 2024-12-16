@@ -21,9 +21,9 @@ const GeistMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "DEVRhylmeDocs - Template",
-  metadataBase: new URL("https://ariadocs.vercel.app/"),
+  metadataBase: new URL("https://docs.devrhylme.org/"),
   description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+    "Welcome to the DevRhylme documentation hub—your gateway to understanding and leveraging our cutting-edge AI, computer vision, and open-source libraries crafted in Go and Python. This responsive and developer-centric documentation ensures effortless navigation, clear guides, and comprehensive resources to support your integration and innovation journey with our tools.",
 };
 
 export default function RootLayout({
